@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K8s AI</title>
+</head>
+<body>
+
+<h1>Kubernetes AI Assistant</h1>
+
+<form action="/ask" method="post">
+
+    <input
+        type="text"
+        name="query"
+        placeholder="Enter Kubernetes Issue"
+        required
+    >
+
+    <button type="submit">
+        Ask AI
+    </button>
+
+</form>
+
+<h2>Response:</h2>
+
+<pre>{{ response }}</pre>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+CrashLoopBackOff:
+Cause:
+- App crash
+- Wrong env
+- DB connection fail
+
+Fix:
+kubectl logs <pod>
+kubectl describe pod <pod>

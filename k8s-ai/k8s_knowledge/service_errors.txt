@@ -1,0 +1,8 @@
+Service not reachable:
+Cause:
+- Wrong selector
+- Port mismatch
+
+Fix:
+kubectl get svc
+kubectl describe svc
